@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Django
+staticfiles/
+*.sqlite3
+.env
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.output/
+.nitro/
+.tanstack/
+.vercel/
+.wrangler/
+*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.log
