@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200" fill="none" role="img" aria-label="Spotter ELD">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12151b"/>
+      <stop offset="1" stop-color="#0b0d11"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8873a"/>
+      <stop offset="1" stop-color="#c85f16"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="200" rx="20" fill="url(#bg)"/>
+  <!-- route motif -->
+  <path d="M120 150 C 200 150, 220 70, 300 70 S 430 150, 520 120" stroke="url(#amber)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="120" cy="150" r="7" fill="#8a94a6"/>
+  <circle cx="300" cy="70" r="7" fill="#1f9d6b"/>
+  <circle cx="520" cy="120" r="7" fill="#e8873a"/>
+  <!-- logo tile -->
+  <rect x="72" y="42" width="52" height="52" rx="14" fill="url(#amber)"/>
+  <path d="M88 78 h12 m-14 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 m16 0 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0 M88 62 h10 v10 h-14 v-6 z M100 66 h6 l4 4 v2 h-10 z" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- wordmark -->
+  <text x="140" y="72" font-family="Inter, system-ui, sans-serif" font-size="34" font-weight="700" fill="#f1f2f4" letter-spacing="-1">spotter</text>
+  <text x="298" y="72" font-family="ui-monospace, monospace" font-size="16" font-weight="600" fill="#8a94a6" letter-spacing="3">ELD</text>
+  <text x="140" y="102" font-family="ui-monospace, monospace" font-size="13" fill="#8a94a6" letter-spacing="1">route + hours-of-service logs for truckers</text>
+</svg>
